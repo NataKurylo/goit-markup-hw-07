@@ -1,0 +1,28 @@
+.work-title,
+.team__title,
+.clients-title {
+    margin-bottom: 50px;
+}
+
+.work-item {
+    width: calc((1200px - 90px)/3);
+}
+
+.work-thumb {
+    position: relative;
+}
+
+.work-text {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 70px;
+    @include font(700, 14px, 1.14);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--hero-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}

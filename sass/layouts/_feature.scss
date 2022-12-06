@@ -1,0 +1,43 @@
+.feature-title,
+.work-title,
+.team__title,
+.clients-title {
+    @include font(null, 36px, 1.17);
+    text-align: center;
+}
+
+.feature {
+    padding-bottom: 0;
+}
+
+.feature-list,
+.work-list,
+.team__list {
+    display: flex;
+    gap: 30px;
+}
+
+.feature-item {
+    width: calc((1200px - 120px)/4);
+}
+
+.feature-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.feature-subtitle {
+    margin-bottom: 10px;
+    @include font(null, 14px, 1.14);
+    text-transform: uppercase;
+}
+
+.feature-text {
+    @include font(null, 14px, 1.71);
+}
